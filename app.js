@@ -64,9 +64,9 @@ srf.invite( (req, res) => {
       return  ; 
     }
     dlg.on('destroy', () => {
+      ep.destroy(); 
       console.log('caller removed from conference');
-      ep.destroy(); }) 
-    ;
+    }) ;
 
     // move the endpoint into the conference
     ep.joinConference( conf, (err) => {
