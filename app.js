@@ -43,6 +43,8 @@ async.waterfall([
   if( err ) {
     throw err ;
   }
+
+  // save ms and conference objects so we can access them from middleware
   srf.locals.ms = ms ;
   srf.locals.conf = conf ;
 }) ;
