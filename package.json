@@ -1,0 +1,30 @@
+{
+  "name": "drachtio-ivr-loadtest",
+  "version": "1.0.0",
+  "description": "simple ivr that can be used for load testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davehorton/drachtio-ivr-loadtest"
+  },
+  "keywords": [
+    "drachtio",
+    "sip",
+    "freeswitch"
+  ],
+  "author": "Dave Horton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davehorton/drachtio-ivr-loadtest/issues"
+  },
+  "homepage": "https://github.com/davehorton/drachtio-ivr-loadtest#readme",
+  "dependencies": {
+    "drachtio": "^1.0.17",
+    "drachtio-fsmrf": "^0.102.8",
+    "drachtio-srf": "^3.0.12"
+  }
+}
